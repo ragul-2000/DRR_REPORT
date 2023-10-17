@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+#action-input {
+    width: 15vh;
+}
+
+#id-input {
+    width: 15vh;
+}
+
+#month-input {
+    width: 10vh;
+}
+
+#year-input {
+    width: 10vh;
+}
+
+#expected-drr-input {
+    width: 12vh;
+}
+
+#days-input {
+    width: 10vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 20px; 
+}
+
+.table-container.show-table {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+button.cancel-button {
+    background-color: #ff0000; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button.cancel-button:hover {
+    background-color: #c70000; 
+}
